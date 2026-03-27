@@ -203,7 +203,7 @@ export default function Home() {
 
               <div className="soft-border rounded-2xl p-5">
                 <div className="text-white/45 text-sm mb-2">Location</div>
-                <div className="font-semibold">India</div>
+                <div className="font-semibold">Mumbai, India.</div>
               </div>
             </div>
           </div>
