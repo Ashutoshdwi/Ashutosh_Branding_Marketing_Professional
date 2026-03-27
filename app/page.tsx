@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WORK */}
+      {/* CASE STUDIES (SIMPLIFIED) */}
       <section className="section-space">
         <div className="container-main">
 
@@ -36,90 +36,74 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            {/* ACWO */}
-            <Link
-              href="/work/acwo-inner-voice"
-              className="group card-dark p-6 md:p-8 transition hover:border-white/20"
-            >
-              <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-4">
+            <Link href="/work/acwo-inner-voice" className="group card-dark p-6 md:p-8 hover:border-white/20">
+              <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-3">
                 Brand Storytelling
               </p>
 
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-3">
                 #SunApneAndarKiAwaaz
               </h3>
 
-              <p className="text-white/60 leading-7 mb-6">
-                An emotional brand film built on introspection and identity.
+              <p className="text-white/60 mb-5">
+                Emotional storytelling rooted in introspection.
               </p>
 
-              <span className="text-sm text-white/80 group-hover:underline">
+              <span className="text-sm group-hover:underline">
                 View Case Study →
               </span>
             </Link>
 
-            {/* PVR EXHIBITION */}
-            <Link
-              href="/work/pvr-exhibitions"
-              className="group card-dark p-6 md:p-8 transition hover:border-white/20"
-            >
-              <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-4">
+            <Link href="/work/pvr-exhibitions" className="group card-dark p-6 md:p-8 hover:border-white/20">
+              <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-3">
                 Exhibition Strategy
               </p>
 
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-3">
                 PVR Exhibition Expansion
               </h3>
 
-              <p className="text-white/60 leading-7 mb-6">
-                Built a structured exhibition system and expanded regional presence.
+              <p className="text-white/60 mb-5">
+                Scaled presence through structured execution.
               </p>
 
-              <span className="text-sm text-white/80 group-hover:underline">
+              <span className="text-sm group-hover:underline">
                 View Case Study →
               </span>
             </Link>
 
-            {/* TRAFFIC */}
-            <Link
-              href="/work/pvr-traffic-growth"
-              className="group card-dark p-6 md:p-8 transition hover:border-white/20"
-            >
-              <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-4">
+            <Link href="/work/pvr-traffic-growth" className="group card-dark p-6 md:p-8 hover:border-white/20">
+              <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-3">
                 Creative + Performance
               </p>
 
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-3">
                 Targeted Traffic Growth
               </h3>
 
-              <p className="text-white/60 leading-7 mb-6">
-                Scaled relevant traffic using niche audience targeting and creative.
+              <p className="text-white/60 mb-5">
+                Grew relevant traffic using niche targeting.
               </p>
 
-              <span className="text-sm text-white/80 group-hover:underline">
+              <span className="text-sm group-hover:underline">
                 View Case Study →
               </span>
             </Link>
 
-            {/* SMS */}
-            <Link
-              href="/work/acwo-sms-optimization"
-              className="group card-dark p-6 md:p-8 transition hover:border-white/20"
-            >
-              <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-4">
+            <Link href="/work/acwo-sms-optimization" className="group card-dark p-6 md:p-8 hover:border-white/20">
+              <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-3">
                 Audience Insight
               </p>
 
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-3">
                 SMS Communication Optimization
               </h3>
 
-              <p className="text-white/60 leading-7 mb-6">
-                Improved response by aligning messaging with audience language.
+              <p className="text-white/60 mb-5">
+                Improved response through language alignment.
               </p>
 
-              <span className="text-sm text-white/80 group-hover:underline">
+              <span className="text-sm group-hover:underline">
                 View Case Study →
               </span>
             </Link>
@@ -128,57 +112,86 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT */}
+      {/* IMPACT SNAPSHOT */}
       <section className="section-space border-t border-white/5">
         <div className="container-main">
-          <div className="max-w-3xl">
-            <p className="text-xs uppercase tracking-[0.25em] text-white/40 mb-4">
-              About
-            </p>
 
-            <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
-              Building clarity between brand, audience, and execution.
-            </h2>
+          <p className="text-xs uppercase tracking-[0.25em] text-white/40 mb-4">
+            Impact Snapshot
+          </p>
 
-            <p className="text-white/70 leading-8">
-              I work at the intersection of branding, marketing, and execution —
-              focusing on ideas that are not just creative, but meaningful and scalable.
-              My approach combines emotional storytelling, structured thinking, and
-              practical execution to build campaigns that perform.
-            </p>
+          <h2 className="text-3xl md:text-5xl font-bold mb-10">
+            Work measured through attention, traction, and execution.
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <div className="card-dark p-6">
+              <h3 className="text-2xl font-semibold mb-2">Millions</h3>
+              <p className="text-white/60 text-sm">Organic campaign views</p>
+            </div>
+
+            <div className="card-dark p-6">
+              <h3 className="text-2xl font-semibold mb-2">3–4K → 12–13K</h3>
+              <p className="text-white/60 text-sm">Website traffic growth</p>
+            </div>
+
+            <div className="card-dark p-6">
+              <h3 className="text-2xl font-semibold mb-2">Multi-city</h3>
+              <p className="text-white/60 text-sm">Exhibition expansion</p>
+            </div>
+
+            <div className="card-dark p-6">
+              <h3 className="text-2xl font-semibold mb-2">Brand + Film</h3>
+              <p className="text-white/60 text-sm">Creative cross-functionality</p>
+            </div>
+
           </div>
+        </div>
+      </section>
+
+      {/* FILM SECTION */}
+      <section className="section-space border-t border-white/5">
+        <div className="container-main">
+
+          <p className="text-xs uppercase tracking-[0.25em] text-white/40 mb-4">
+            Film & Creative
+          </p>
+
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+            Beyond marketing — creative exposure
+          </h2>
+
+          <p className="text-white/70 max-w-2xl leading-8">
+            Experience working around film environments, storytelling formats,
+            and creative execution beyond traditional marketing roles.
+          </p>
+
         </div>
       </section>
 
       {/* CONTACT */}
       <section id="contact" className="section-space border-t border-white/5">
         <div className="container-main">
-          <div className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.25em] text-white/40 mb-4">
-              Contact
-            </p>
 
-            <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
-              Let’s build something meaningful.
-            </h2>
+          <p className="text-xs uppercase tracking-[0.25em] text-white/40 mb-4">
+            Contact
+          </p>
 
-            <div className="space-y-4 text-white/70">
-              <a
-                href="mailto:yourmail@email.com"
-                className="block hover:text-white"
-              >
-                yourmail@email.com
-              </a>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+            Let’s build something meaningful.
+          </h2>
 
-              <a
-                href="https://linkedin.com/in/yourprofile"
-                target="_blank"
-                className="block hover:text-white"
-              >
-                linkedin.com/in/yourprofile
-              </a>
-            </div>
+          <div className="space-y-3 text-white/70">
+            <a href="mailto:yourmail@email.com" className="block hover:text-white">
+              yourmail@email.com
+            </a>
+
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" className="block hover:text-white">
+              linkedin.com/in/yourprofile
+            </a>
           </div>
+
         </div>
       </section>
 
