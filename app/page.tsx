@@ -193,12 +193,12 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-white/75">
               <div className="soft-border rounded-2xl p-5">
                 <div className="text-white/45 text-sm mb-2">Email</div>
-                <div className="font-semibold">yourmail@example.com</div>
+                <div className="font-semibold">drashu211@gmail.com</div>
               </div>
 
               <div className="soft-border rounded-2xl p-5">
-                <div className="text-white/45 text-sm mb-2">LinkedIn</div>
-                <div className="font-semibold">linkedin.com/in/yourprofile</div>
+                <div className="text-white/45 text-sm mb-2">Mobile</div>
+                <div className="font-semibold">+91 9137421600</div>
               </div>
 
               <div className="soft-border rounded-2xl p-5">
