@@ -145,6 +145,118 @@ export default function Home() {
         </div>
       </section>
 
+      {/* PROOF OF WORK / SNAPSHOTS */}
+      <section className="section-space border-t border-white/5">
+        <div className="container-main">
+          <div className="mb-12">
+            <p className="text-xs uppercase tracking-[0.25em] text-white/40 mb-4">
+              Proof of Work
+            </p>
+
+            <h2 className="text-3xl md:text-5xl font-bold leading-tight max-w-3xl">
+              Snapshots from campaigns, exhibitions, and creative execution.
+            </h2>
+
+            <p className="mt-4 text-white/65 max-w-2xl leading-8">
+              A closer look at the work through actual visuals, execution moments,
+              and campaign proof.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="card-dark overflow-hidden">
+              <img
+                src="/snapshots/campaign.jpg"
+                alt="Campaign visual"
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-5">
+                <h3 className="text-xl font-semibold">Campaign Storytelling</h3>
+                <p className="text-white/60 text-sm mt-2 leading-6">
+                  Visual proof from a campaign built around emotion, introspection,
+                  and organic audience resonance.
+                </p>
+              </div>
+            </div>
+
+            <div className="card-dark overflow-hidden">
+              <img
+                src="/snapshots/traffic.jpg"
+                alt="Traffic growth visual"
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-5">
+                <h3 className="text-xl font-semibold">Traffic Growth</h3>
+                <p className="text-white/60 text-sm mt-2 leading-6">
+                  Audience-focused digital execution that helped grow website traffic
+                  from 3–4K to 12–13K.
+                </p>
+              </div>
+            </div>
+
+            <div className="card-dark overflow-hidden">
+              <img
+                src="/snapshots/expo.jpg"
+                alt="Exhibition visual"
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-5">
+                <h3 className="text-xl font-semibold">Exhibition Expansion</h3>
+                <p className="text-white/60 text-sm mt-2 leading-6">
+                  On-ground presence, execution quality, and market exploration
+                  through a wider exhibition footprint.
+                </p>
+              </div>
+            </div>
+
+            <div className="card-dark overflow-hidden">
+              <img
+                src="/snapshots/film.jpg"
+                alt="Film visual"
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-5">
+                <h3 className="text-xl font-semibold">On-Set Exposure</h3>
+                <p className="text-white/60 text-sm mt-2 leading-6">
+                  Practical exposure to ad film environments, creative collaboration,
+                  and execution on set.
+                </p>
+              </div>
+            </div>
+
+            <div className="card-dark overflow-hidden">
+              <img
+                src="/snapshots/social.jpg"
+                alt="Social proof visual"
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-5">
+                <h3 className="text-xl font-semibold">Content & Social Thinking</h3>
+                <p className="text-white/60 text-sm mt-2 leading-6">
+                  Understanding what works creatively and what connects with the
+                  audience across digital content formats.
+                </p>
+              </div>
+            </div>
+
+            <div className="card-dark overflow-hidden">
+              <img
+                src="/snapshots/branding.jpg"
+                alt="Branding visual"
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-5">
+                <h3 className="text-xl font-semibold">Brand Presence</h3>
+                <p className="text-white/60 text-sm mt-2 leading-6">
+                  Physical brand execution across stalls, layouts, displays, and
+                  coordinated visual presence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="film" className="section-space">
         <div className="container-main">
           <SectionHeading
