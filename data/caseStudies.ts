@@ -73,7 +73,7 @@ export const caseStudies: CaseStudy[] = [
     media: [
       {
         type: "youtube",
-        src: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        src: "https://www.youtube.com/embed/kP_3i-2emyM",
         title: "Campaign Video Placeholder",
       },
     ],
