@@ -73,14 +73,29 @@ export const caseStudies: CaseStudy[] = [
     media: [
       {
         type: "youtube",
-        src: "https://www.youtube.com/embed/kP_3i-2emyM",
-        title: "Campaign Video Placeholder",
+        src: "https://www.youtube.com/embed/kP_3i-2emyM?list=PLxK77nTilfC_cz0k3T9549YJibM21dx8-",
+        title: "Main Campaign Film",
+      },
+      {
+        type: "youtube",
+        src: "https://www.youtube.com/embed/sStTkSBRRlA?list=PLxK77nTilfC_cz0k3T9549YJibM21dx8-",
+        title: "Supporting Video 1",
+      },
+      {
+        type: "youtube",
+        src: "https://www.youtube.com/embed/NLP9rUGw1Og",
+        title: "Supporting Video 2",
+      },
+      {
+        type: "youtube",
+        src: "https://www.youtube.com/embed/pSWmq2RX6So",
+        title: "Supporting Video 3",
       },
     ],
   },
   {
     slug: "pvr-exhibitions",
-    title: "PVR Exhibition Expansion",
+    title: "PVR Controls Exhibition Expansion",
     company: "PVR Controls",
     category: "Strategy / Execution / BTL",
     description:
