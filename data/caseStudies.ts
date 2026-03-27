@@ -37,8 +37,8 @@ export const caseStudies: CaseStudy[] = [
       "An emotional storytelling campaign built around identity, introspection, and authentic brand voice.",
     heroTag: "Brand Storytelling",
     overview: {
-      role: "Branding & Marketing",
-      duration: "Campaign Project",
+      role: "Sr. Brand Executive",
+      duration: "3 Months",
       objective:
         "Move communication beyond product features and establish a deeper emotional connection with the audience.",
     },
@@ -103,7 +103,7 @@ export const caseStudies: CaseStudy[] = [
     heroTag: "Exhibition Strategy",
     overview: {
       role: "Branding Specialist",
-      duration: "Ongoing",
+      duration: "1 Year",
       objective:
         "Create a structured exhibition process and expand presence beyond a few large expos into multiple regional opportunities.",
     },
@@ -167,7 +167,7 @@ export const caseStudies: CaseStudy[] = [
       "Creative-led ad execution and niche audience targeting that helped grow relevant website traffic significantly.",
     heroTag: "Creative + Performance",
     overview: {
-      role: "Sr. Brand Executive",
+      role: "Branding Specialist",
       duration: "Campaign Phase",
       objective:
         "Increase qualified website traffic and build a more relevant digital audience for the refrigeration and automation space.",
@@ -209,8 +209,8 @@ export const caseStudies: CaseStudy[] = [
       "A simple but sharp audience-language insight that improved SMS campaign response within days.",
     heroTag: "Audience Insight",
     overview: {
-      role: "Branding & Marketing",
-      duration: "Campaign Optimization",
+      role: "Sr. Brand Executive",
+      duration: "1 Week",
       objective:
         "Improve click performance for soundbar promotional SMS communication.",
     },
