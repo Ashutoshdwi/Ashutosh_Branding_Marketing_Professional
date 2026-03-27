@@ -1,3 +1,5 @@
+"use client";
+
 import Navbar from "../components/Navbar";
 import SectionHeading from "../components/SectionHeading";
 import CaseCard from "../components/CaseCard";
@@ -5,6 +7,16 @@ import StatCard from "../components/StatCard";
 import { caseStudies } from "../data/caseStudies";
 
 export default function Home() {
+  const scrollToSection = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <main className="relative overflow-hidden">
       <Navbar />
