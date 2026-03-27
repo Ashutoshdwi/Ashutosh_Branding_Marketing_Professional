@@ -135,10 +135,32 @@ export const caseStudies: CaseStudy[] = [
       { label: "Approach", value: "Big + Regional" },
       { label: "Outcome", value: "Wider Presence" },
     ],
+    media: [
+  {
+    type: "youtube",
+    src: "https://www.youtube.com/embed/Gx9TU2ZxgFs",
+    title: "ACREX Exhibition 2026",
+  },
+  {
+    type: "youtube",
+    src: "https://www.youtube.com/embed/ySK5iUCnZIc",
+    title: "Cold Chain Show Gujarat 2025",
+  },
+  {
+    type: "youtube",
+    src: "https://www.youtube.com/embed/yU4lRlbfRPw",
+    title: "REFCOLD Exhibition 2025",
+  },
+  {
+    type: "youtube",
+    src: "https://www.youtube.com/embed/7ca19t4QxKA",
+    title: "Automation Exhibition 2025",
+  },
+],
   },
   {
     slug: "pvr-traffic-growth",
-    title: "PVR Targeted Traffic Growth",
+    title: "PVR Controls Targeted Traffic Growth",
     company: "PVR Controls",
     category: "Digital / Audience Targeting",
     description:
