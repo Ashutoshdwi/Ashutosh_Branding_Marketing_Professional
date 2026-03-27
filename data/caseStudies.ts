@@ -102,7 +102,7 @@ export const caseStudies: CaseStudy[] = [
       "Streamlining exhibition execution and expanding the brand’s market presence through smarter regional participation.",
     heroTag: "Exhibition Strategy",
     overview: {
-      role: "Sr. Brand Executive",
+      role: "Branding Specialist",
       duration: "Ongoing",
       objective:
         "Create a structured exhibition process and expand presence beyond a few large expos into multiple regional opportunities.",
