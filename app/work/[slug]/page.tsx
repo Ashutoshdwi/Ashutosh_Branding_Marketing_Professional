@@ -13,6 +13,9 @@ export default function CaseStudyPage({
 
   if (!data) return notFound();
 
+  const mainMedia = data.media?.[0];
+  const supportingMedia = data.media?.slice(1) || [];
+
   return (
     <main className="min-h-screen">
       <Navbar />
@@ -129,7 +132,9 @@ export default function CaseStudyPage({
               </div>
 
               <div className="card-dark p-6 md:p-8">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Key Learning</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  Key Learning
+                </h2>
                 <p className="text-white/70 leading-8">{data.learning}</p>
               </div>
             </div>
@@ -155,32 +160,57 @@ export default function CaseStudyPage({
               {data.media && data.media.length > 0 && (
                 <div className="card-dark p-6 md:p-8">
                   <h3 className="text-2xl font-bold mb-5">Media</h3>
-                  <div className="space-y-5">
-                    {data.media.map((item, index) => {
-                      if (item.type === "youtube") {
-                        return (
-                          <VideoEmbed
-                            key={index}
-                            url={item.src}
-                            title={item.title}
-                          />
-                        );
-                      }
 
-                      return (
-                        <div
-                          key={index}
-                          className="rounded-2xl overflow-hidden border border-white/10"
-                        >
+                  {mainMedia && (
+                    <div className="mb-5">
+                      <p className="text-xs uppercase tracking-[0.18em] text-white/45 mb-3">
+                        Main Film
+                      </p>
+                      {mainMedia.type === "youtube" ? (
+                        <VideoEmbed url={mainMedia.src} title={mainMedia.title} />
+                      ) : (
+                        <div className="rounded-2xl overflow-hidden border border-white/10">
                           <img
-                            src={item.src}
-                            alt={item.title}
+                            src={mainMedia.src}
+                            alt={mainMedia.title}
                             className="w-full h-auto block"
                           />
                         </div>
-                      );
-                    })}
-                  </div>
+                      )}
+                    </div>
+                  )}
+
+                  {supportingMedia.length > 0 && (
+                    <div>
+                      <p className="text-xs uppercase tracking-[0.18em] text-white/45 mb-3">
+                        Supporting Videos
+                      </p>
+
+                      <div className="space-y-4">
+                        {supportingMedia.map((item, index) => (
+                          <div key={index}>
+                            <p className="text-sm text-white/55 mb-2">
+                              {item.title}
+                            </p>
+
+                            {item.type === "youtube" ? (
+                              <div className="opacity-90 hover:opacity-100 transition">
+                                <VideoEmbed url={item.src} title={item.title} />
+                              </div>
+                            ) : (
+                              <div className="rounded-2xl overflow-hidden border border-white/10">
+                                <img
+                                  src={item.src}
+                                  alt={item.title}
+                                  className="w-full h-auto block"
+                                />
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
             </div>
